@@ -28,3 +28,81 @@ export const allItems=[
 
 
 ];
+
+export const middleList = [
+    {
+        _id: 2221,
+        title: "Get to Know Us",
+        listitem: [
+            {
+                _id: "001",
+                listData: [
+                    "Careers",
+                    "Blog",
+                    "About Amazon",
+                    "Investor Relations",
+                    "Amazon Devices",
+                    "Amazon Science",
+                ],
+            },
+        ],
+    },
+    {
+        _id: 2222,
+        title: "Make Money With Us",
+        listitem: [
+            {
+                _id: "002",
+                listData: [
+                    "Sell Products on Amazon",
+                    "Sell on Amazon Business",
+                    "Sell apps on amazon",
+                    "Become an Affiliate",
+                    "Advertise Your Products",
+                    "Sell Product with Us",
+                    "Host an Amazon Hub",
+                    "See More Make Money with Us",
+                
+                ],
+            },
+        ],
+
+    },
+    {
+        id: 2223,
+        title: "Amazon Payment Products",
+        listitem: [
+            {
+                _id: "003",
+                listData: [
+                    "Amazon Business Card",
+                    "shop with Points",
+                    "Reload your Balance",
+                    "Amazon currency converter",
+                
+                ],
+            },
+        ],
+    },
+    {
+        id: 2224,
+        title: "Amazon Payment Products",
+        listitem: [
+            {
+                _id: "004",
+                listData: [
+                   "Amazon and COVID-19",
+                   "Your Account",
+                   "Your Orders",
+                   "Shipping Rates & Policies",
+                   "Returns & Replacements",
+                   "Manage Your content and Devices",
+                   "Amazon Assistant",
+                   "FAQ & Help",
+
+                
+                ],
+            },
+        ],
+    }
+]
