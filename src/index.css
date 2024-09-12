@@ -12,4 +12,5 @@
     .footerLink{
         @apply text-sm font-titleFont tracking-wide hover:text-gray-100 cursor-pointer hover:underline duration-150;
     };
+
 };
