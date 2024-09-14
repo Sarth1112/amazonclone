@@ -22,19 +22,19 @@ function HeaderBottom() {
                 <li onClick={() => setSidebar(true)} className='gap-1 px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100'>
                     <MenuIcon />All
                 </li>
-                <li className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100'>
+                <li className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100 hidden md:inline-flex'>
                     Today's Deals
                 </li>
-                <li className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100'>
+                <li className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100 hidden md:inline-flex'>
                     Customer Service
                 </li>
-                <li className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100'>
+                <li className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100 hidden md:inline-flex'>
                     Gift Cards
                 </li>
-                <li className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100'>
+                <li className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100 hidden md:inline-flex'>
                     Registry
                 </li>
-                <li className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100'>
+                <li className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100 hidden md:inline-flex'>
                     Sell
                 </li>
             </ul>

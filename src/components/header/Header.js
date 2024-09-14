@@ -12,14 +12,14 @@ const Header = () => {
 
 
   return (
-    <div className='w-full' > 
+    <div className='w-full sticky top-0 z-50' > 
       <div className='w-full bg-amazon_blue text-white px-4 py-3 flex items-center gap-4'>
       <div className="px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100">
         <img className="w-24 mt-2" src={logo} alt="logo" />
       </div>
 
 
-    <div className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100'>
+    <div className='px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100 hidden md:inline-flex'>
     <LocationOnIcon/>
     <p className='text-sm text-lightText font-light flex flex-col'>
         Deliver to{" "}
@@ -29,7 +29,7 @@ const Header = () => {
     </p>
     </div>
 
-    <div className='h-10 rounded-md flex flex-grow relative'>
+    <div className='h-10 rounded-md hidden lgl:flex flex-grow relative'>
         <span onClick={()=>setShowAll(!showAll)}className="w-14 h-full bg-gray-200 hover:bg-gray-300 border-2 cursor-pointer duration-300 text-sm text-amazon_blue font-titleFont flex items-center justify-center rounded-tl-md rounded-bl-md">All <span></span><ArrowDropDownIcon/></span>
         {
             showAll && (
@@ -56,8 +56,8 @@ const Header = () => {
     </div>
 
     <div className="flex flex-col items-start justify-center px-2 h-[80%] border border-transparent hover:border-white cursor-pointer duration-100">
-        <p className="text-xs text-lightText font-light">Hello, Sign in</p>
-        <p className="text-sm font-semibold -mt-1 text-whiteText">
+        <p className="text-sm mdl:text-xs text-white mdl:text-lightText font-light">Hello, Sign in</p>
+        <p className="text-sm font-semibold -mt-1 text-whiteText hidden mdl:inline-flex">
             Accounts & Lists{" "} 
             <span>
                 <ArrowDropDownIcon/>
@@ -66,7 +66,7 @@ const Header = () => {
     </div>
 
 
-    <div className='flex-col justify-center px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100'>
+    <div className='hidden lgl:flex-col justify-center px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100'>
         <p className="text-xs text-lightText font-light">Returns</p>
         <p className="text-sm font-semibold -mt-1 text-whiteText">& Orders</p>
     </div>
